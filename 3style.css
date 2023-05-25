@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 600;
+    background: url("111.jpeg");
+    padding-top: 100px;
+}
+#wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+#maindiv {
+    max-width: 800px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: red;
+    box-shadow: 10px 10px 45px -10px rgba(70, 70, 70, 0.75);
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none; 
+  }
+  
+  .slide.active {
+    display: block;
+    background-color: rgb(255, 255, 255);
+  }
+#buttonsdiv{
+    padding-left: 615px;
+}
+#b1{
+  width: 75px;
+  height: 50px;
+  cursor:pointer;
+  border-radius: 20px;
+  color: blue;
+  background-color: brown;
+}
+#b2{
+  width: 75px;
+  height: 50px;
+  cursor:pointer;
+  border-radius: 20px;
+  color: blue;
+  background-color: brown;
+}
+.dots-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.dot{
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: coral;
+  margin-right: 15px;
+  cursor:pointer;
+}
+.dot.active{
+  background-color: black;
+}
+#l1{
+    color: darkorange;
+}
+#l2{
+    color:blue;
+}
+#l3{
+    color:darkmagenta;
+}
+#l4{
+    color:lightgreen;
+}
+#l5{
+    color:chartreuse;
+}
